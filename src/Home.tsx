@@ -1,14 +1,12 @@
+// src/Home.tsx
+import { StitchComponent } from './StitchComponent';
+
 function Home() {
-  return <div style={{
-    width: '100%',
-    height: '100%',
-    display: 'flex',
-    justifyContent:'center',
-    alignItems:'center'
-  }}>
-    <h1>Welcome to react router dom and Query!</h1>
-  </div>;
+  return (
+    <main>
+      <StitchComponent />
+    </main>
+  );
 }
 
 export default Home;
-  
